@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.palos,
+.palos__footer {
+  font-size: 8rem;
+}
+
+.heart,
+.diamond {
+  color: red;
+}
+.trebol,
+.pica {
+  color: black;
+}
+
+.number {
+  text-align: center;
+  font-size: 10rem;
+}
+
+.palos__footer {
+  display: flex;
+  justify-content: end;
+}
