@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25%;
+  width: 25rem;
   margin-top: 2rem;
 }
 
@@ -30,6 +30,5 @@ body {
 }
 
 .palos__footer {
-  display: flex;
-  justify-content: end;
+  transform: rotate(180deg);
 }
